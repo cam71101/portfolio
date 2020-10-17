@@ -11,12 +11,11 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     borderBottom: '.5rem solid',
-    marginBottom: '5%',
+    marginBottom: '2.2rem',
     width: '100%',
     color: theme.palette.primary.dark,
   },
   text: {
-    marginBottom: '3%',
     fontSize: '1rem',
   },
 }));
@@ -25,12 +24,7 @@ const About = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Typography
-        variant="h2"
-        gutterBottom
-        className={classes.title}
-        color="primary"
-      >
+      <Typography variant="h2" className={classes.title} color="primary">
         About me.
       </Typography>
       <Typography
@@ -47,9 +41,12 @@ const About = () => {
         className={classes.text}
         color="primary"
       >
-        I like creating elegant front ends with modern and clean code. I'm
-        currently learning Typescript and the functional programming paradigm
-        within Javascript.
+        I have a passion for problem-solving and draw immense satisfaction from
+        creating. This has led me to become a self-taught developer. I enjoy
+        learning and I like that programming requires a growth mindset to keep
+        up with the latest tech and trends. My current career is technically
+        demanding and I believe these skills are easily transferable to
+        programming.
       </Typography>
       <Typography
         variant="body1"
@@ -57,17 +54,8 @@ const About = () => {
         className={classes.text}
         color="primary"
       >
-        Interested in learning more of the full stack. Currently making some
-        small projects with Node.js and Express.
-      </Typography>
-      <Typography
-        variant="body1"
-        gutterBottom
-        className={classes.text}
-        color="primary"
-      >
-        When I'm not learning one of the above or wrestling with webpack I'm
-        usually in the studio painting or on Codewars..
+        I’m currently learning the functional programming paradigm within
+        Javascript. My next project will be a Podcast App.
       </Typography>
     </div>
   );

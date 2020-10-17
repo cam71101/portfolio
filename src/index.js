@@ -26,6 +26,16 @@ const theme = createMuiTheme({
     h5: {
       fontWeight: 200,
     },
+    h6: {
+      fontWeight: 200,
+    },
+  },
+  overrides: {
+    MuiTypography: {
+      gutterBottom: {
+        marginBottom: 20,
+      },
+    },
   },
 });
 console.log(theme);

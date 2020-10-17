@@ -20,7 +20,17 @@ export default function ButtonAppBar(props) {
   return (
     <div className={classes.root}>
       <Toolbar className={classes.toolbar} variant={'regular'}>
-        <Button className={classes.button}>CV</Button>
+        <Button
+          className={classes.button}
+          onClick={() =>
+            window.open(
+              'https://www.linkedin.com/in/david-fisher-19758078/',
+              '_blank'
+            )
+          }
+        >
+          CV
+        </Button>
         <Button className={classes.button} onClick={props.contact}>
           Contact
         </Button>

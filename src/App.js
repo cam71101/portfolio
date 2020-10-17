@@ -11,6 +11,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   background: {
     backgroundColor: theme.palette.secondary.light,
+    width: '100vw',
   },
 }));
 
@@ -41,13 +42,13 @@ function App() {
         </Fade>
       </div>
 
-      <div style={{ height: 1110 }} />
+      <div style={{ height: 1400 }} />
       <div ref={myRefAbout}>
         <Fade>
           <About />
         </Fade>
       </div>
-      <div style={{ height: 20 }} />
+      {/* <div style={{ height: 100 }} /> */}
       <div ref={myRefContact}></div>
       <Fade>
         <Contact />

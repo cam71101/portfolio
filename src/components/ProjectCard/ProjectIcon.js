@@ -8,14 +8,20 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    margin: '2rem',
     width: '50%',
     height: '8rem',
   },
-  text: {
-    textAlign: 'center',
-    flexGrow: 1,
-    justifySelf: 'flex-end',
+  logo: {
+    width: '3rem',
+    height: '3rem',
+    [theme.breakpoints.down('sm')]: {
+      width: '2.5rem',
+      height: '2.5rem',
+    },
+    [theme.breakpoints.down('xs')]: {
+      width: '2rem',
+      height: '2rem',
+    },
   },
 }));
 
@@ -24,7 +30,6 @@ export default function ProjectIcon(props) {
   return (
     <div className={classes.root}>
       <img className={classes.logo} src={props.logo} alt={props.name} />
-      <Typography className={classes.text}>{props.name}</Typography>
     </div>
   );
 }

@@ -8,6 +8,8 @@ import { Typography } from '@material-ui/core';
 import battleShipsDesktop from '../assets/BattleShips_ScreeGrab_Desktop_Cropped.png';
 import weatherApp from '../assets/Weather_App.png';
 import myMovieList from '../assets/My_Movie_List.png';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { useTheme } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     marginLeft: '10%',
     height: '100rem',
-    width: '80%',
+    width: '80vw',
   },
   text: {
     borderBottom: '.5rem solid',
@@ -27,6 +29,8 @@ const useStyles = makeStyles((theme) => ({
 
 const Projects = (props) => {
   const classes = useStyles();
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.down('xs'));
 
   const projects = {
     myMovieList: {
@@ -34,21 +38,23 @@ const Projects = (props) => {
       title: 'MY MOVIE LIST',
       subHeading: 'Create a list of movies to watch and rate',
       text:
-        'This project was buit to help people visualise the impact of corona virus. I wanted to solve the problem of large data sets not being easy to understand. The App fetches real time data from John Hopskins University through an API and displays human icons to represent how many people are infected, cured and have died.',
+        'Created using React.js and Firebase, My Movie List is an application that allows users to create an account, add movies to a personal list, toggle if you’ve seen the movie or not and rate the movie on a rating scale of 10. The application pulls images and data from ‘The Movie Database API',
       react: true,
       material: true,
       sourceCode: 'https://github.com/cam71101/My-Movie-List',
       livePreview: ' https://cam71101.github.io/My-Movie-List/',
+      css: true,
     },
     weatherApp: {
       image: weatherApp,
       title: 'WEATHER CITY APP',
       subHeading: 'Search for weather predictions for a city',
       text:
-        'This project was built to help visualise how different sorting algorithms work. The sorting algorithms chosen were quick sort, merge sort and insertion sort.',
+        'WeatherCheck allows users to enter a city name and receive current weather data using the OpenWeatherMap API. All cities with the specified name are displayed, and a temperature unit toggle is available to switch between Celsius and Fahrenheit.',
       react: true,
       sourceCode: 'https://github.com/cam71101/weather-app',
       livePreview: 'https://cam71101.github.io/weather-app/',
+      css: true,
     },
     battleShips: {
       title: 'BATTLESHIPS',
@@ -58,6 +64,7 @@ const Projects = (props) => {
         'In this project I practised Test Driven Development using Jest and Object Oriented Programming. The goal was to create the main Factory Functions and test their proper functionality. It was built with HTML, CSS and Javascript.',
       sourceCode: 'https://github.com/cam71101/BattleShips',
       livePreview: 'https://cam71101.github.io/BattleShips/',
+      css: false,
     },
   };
 
@@ -72,13 +79,18 @@ const Projects = (props) => {
         subHeading={project.subHeading}
         sourceCode={project.sourceCode}
         livePreview={project.livePreview}
+        css={project.css}
       ></ProjectCard>
     );
   });
 
   return (
     <div className={classes.root}>
-      <Typography variant="h2" gutterBottom className={classes.text}>
+      <Typography
+        variant={matches ? 'h3' : 'h2'}
+        gutterBottom
+        className={classes.text}
+      >
         Projects
       </Typography>
       {websites}
