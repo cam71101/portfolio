@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d40e8435.chunk.css",
+    "main.js": "/portfolio/static/js/main.c3029125.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c3029125.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.6add3f2a.chunk.js": "/portfolio/static/js/2.6add3f2a.chunk.js",
+    "static/js/2.6add3f2a.chunk.js.map": "/portfolio/static/js/2.6add3f2a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.ecb855e5c65ed944e28fbf43afaa8be1.js": "/portfolio/precache-manifest.ecb855e5c65ed944e28fbf43afaa8be1.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.d40e8435.chunk.css.map": "/portfolio/static/css/main.d40e8435.chunk.css.map",
+    "static/js/2.6add3f2a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6add3f2a.chunk.js.LICENSE.txt",
+    "static/media/BattleShips_ScreeGrab_Desktop_Cropped.a0f45325.png": "/portfolio/static/media/BattleShips_ScreeGrab_Desktop_Cropped.a0f45325.png",
+    "static/media/My_Movie_List.a78c1de9.png": "/portfolio/static/media/My_Movie_List.a78c1de9.png",
+    "static/media/Weather_App.ed8505b4.png": "/portfolio/static/media/Weather_App.ed8505b4.png",
+    "static/media/cssLogo.svg": "/portfolio/static/media/cssLogo.d10f4bf6.svg",
+    "static/media/htmlLogo.svg": "/portfolio/static/media/htmlLogo.a0657d1c.svg",
+    "static/media/javaScriptLogo.svg": "/portfolio/static/media/javaScriptLogo.dea7a03f.svg",
+    "static/media/materialUILogo.svg": "/portfolio/static/media/materialUILogo.861aadad.svg",
+    "static/media/reactLogo.svg": "/portfolio/static/media/reactLogo.a899d525.svg",
+    "static/media/sassLogo.svg": "/portfolio/static/media/sassLogo.b446ca5a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.6add3f2a.chunk.js",
+    "static/css/main.d40e8435.chunk.css",
+    "static/js/main.c3029125.chunk.js"
+  ]
+}
