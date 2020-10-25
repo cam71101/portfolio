@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c7c389fb571acd3854a2abfb29be3fb",
+    "revision": "ab7091b940ebf1f9b9e10cb42ae3a2e9",
     "url": "/index.html"
   },
   {
-    "revision": "73cc488229bdad3f03cf",
+    "revision": "d4519751c8d6b6b29f36",
     "url": "/static/css/main.d40e8435.chunk.css"
   },
   {
-    "revision": "62dc35e42b9d28f15768",
-    "url": "/static/js/2.6add3f2a.chunk.js"
+    "revision": "50ac449e7eee842fe8bb",
+    "url": "/static/js/2.9402c668.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.6add3f2a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9402c668.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73cc488229bdad3f03cf",
-    "url": "/static/js/main.366b1e40.chunk.js"
+    "revision": "d4519751c8d6b6b29f36",
+    "url": "/static/js/main.6b46cce5.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/BattleShips_ScreeGrab_Desktop_Cropped.a0f45325.png"
   },
   {
-    "revision": "71dff86ec187c77bd002034353eb0126",
-    "url": "/static/media/My_Movie_List.a78c1de9.png"
+    "revision": "65c9ea9ccd6435e965c1621e603f7c5c",
+    "url": "/static/media/David_Fisher_Dev_CV.65c9ea9c.pdf"
   },
   {
-    "revision": "e5333c1229a7127b63e6c8350d298018",
-    "url": "/static/media/Weather_App.ed8505b4.png"
+    "revision": "71dff86ec187c77bd002034353eb0126",
+    "url": "/static/media/My_Movie_List.a78c1de9.png"
   },
   {
     "revision": "d10f4bf68a27526ef83fd9dfdc75317d",
@@ -58,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b446ca5a397c1ef6fb94cd02c4e94335",
     "url": "/static/media/sassLogo.b446ca5a.svg"
+  },
+  {
+    "revision": "e5333c1229a7127b63e6c8350d298018",
+    "url": "/static/media/weather-app-screenshot.ed8505b4.png"
   }
 ]);

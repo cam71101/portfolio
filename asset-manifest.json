@@ -1,31 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.d40e8435.chunk.css",
-    "main.js": "/static/js/main.366b1e40.chunk.js",
-    "main.js.map": "/static/js/main.366b1e40.chunk.js.map",
+    "main.js": "/static/js/main.6b46cce5.chunk.js",
+    "main.js.map": "/static/js/main.6b46cce5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.6add3f2a.chunk.js": "/static/js/2.6add3f2a.chunk.js",
-    "static/js/2.6add3f2a.chunk.js.map": "/static/js/2.6add3f2a.chunk.js.map",
+    "static/js/2.9402c668.chunk.js": "/static/js/2.9402c668.chunk.js",
+    "static/js/2.9402c668.chunk.js.map": "/static/js/2.9402c668.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8fb90f17f2f48b185f810783f503addb.js": "/precache-manifest.8fb90f17f2f48b185f810783f503addb.js",
+    "precache-manifest.22989de5e85cddc265b83fa5e77a90f8.js": "/precache-manifest.22989de5e85cddc265b83fa5e77a90f8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.d40e8435.chunk.css.map": "/static/css/main.d40e8435.chunk.css.map",
-    "static/js/2.6add3f2a.chunk.js.LICENSE.txt": "/static/js/2.6add3f2a.chunk.js.LICENSE.txt",
+    "static/js/2.9402c668.chunk.js.LICENSE.txt": "/static/js/2.9402c668.chunk.js.LICENSE.txt",
     "static/media/BattleShips_ScreeGrab_Desktop_Cropped.a0f45325.png": "/static/media/BattleShips_ScreeGrab_Desktop_Cropped.a0f45325.png",
+    "static/media/David_Fisher_Dev_CV.pdf": "/static/media/David_Fisher_Dev_CV.65c9ea9c.pdf",
     "static/media/My_Movie_List.a78c1de9.png": "/static/media/My_Movie_List.a78c1de9.png",
-    "static/media/Weather_App.ed8505b4.png": "/static/media/Weather_App.ed8505b4.png",
     "static/media/cssLogo.svg": "/static/media/cssLogo.d10f4bf6.svg",
     "static/media/htmlLogo.svg": "/static/media/htmlLogo.a0657d1c.svg",
     "static/media/javaScriptLogo.svg": "/static/media/javaScriptLogo.dea7a03f.svg",
     "static/media/materialUILogo.svg": "/static/media/materialUILogo.861aadad.svg",
     "static/media/reactLogo.svg": "/static/media/reactLogo.a899d525.svg",
-    "static/media/sassLogo.svg": "/static/media/sassLogo.b446ca5a.svg"
+    "static/media/sassLogo.svg": "/static/media/sassLogo.b446ca5a.svg",
+    "static/media/weather-app-screenshot.ed8505b4.png": "/static/media/weather-app-screenshot.ed8505b4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.6add3f2a.chunk.js",
+    "static/js/2.9402c668.chunk.js",
     "static/css/main.d40e8435.chunk.css",
-    "static/js/main.366b1e40.chunk.js"
+    "static/js/main.6b46cce5.chunk.js"
   ]
 }
