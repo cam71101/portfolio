@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
 
 import battleShipsDesktop from '../assets/BattleShips_ScreeGrab_Desktop_Cropped.png';
-import weatherApp from '../assets/Weather_App.png';
+import weatherApp from '../assets/weather-app-screenshot.png';
 import myMovieList from '../assets/My_Movie_List.png';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';

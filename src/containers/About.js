@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
   },
   text: {
     fontSize: '1rem',
+    [theme.breakpoints.down('xs')]: {
+      textAlign: 'center',
+    },
   },
 }));
 
@@ -42,20 +45,19 @@ const About = () => {
         color="primary"
       >
         I have a passion for problem-solving and draw immense satisfaction from
-        creating. This has led me to become a self-taught developer. I enjoy
-        learning and I like that programming requires a growth mindset to keep
-        up with the latest tech and trends. My current career is technically
-        demanding and I believe these skills are easily transferable to
-        programming.
+        creating. I'm transitioning from a technically demanding job in VFX into
+        web development. I enjoy learning, and I like that programming requires
+        a growth mindset to keep up with the latest tech and trends.
       </Typography>
+
       <Typography
         variant="body1"
         gutterBottom
         className={classes.text}
         color="primary"
       >
-        I’m currently learning the functional programming paradigm within
-        Javascript. My next project will be a Podcast App.
+        I’m currently learning more about functional programming. My next
+        project will be a Podcast App.
       </Typography>
     </div>
   );

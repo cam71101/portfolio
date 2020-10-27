@@ -32,17 +32,6 @@ const Contact = () => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down('xs'));
 
-  const Mailto = () => {
-    return (
-      <a
-        href="mailto:david.fisher137@gmail.com"
-        rel="nofollow noopener noreferrer"
-      >
-        Mail
-      </a>
-    );
-  };
-
   return (
     <div className={classes.root}>
       <Typography variant={matches ? 'h3' : 'h2'} color="primary">
@@ -61,9 +50,7 @@ const Contact = () => {
         ></LinkedInIcon>
         <EmailIcon
           className={classes.icon}
-          onClick={() =>
-            (window.location.href = 'mailto:david.fisher137@gmail.com')
-          }
+          onClick={() => (window.location.href = 'mailto:david@d-fisher.com')}
         ></EmailIcon>
       </div>
     </div>

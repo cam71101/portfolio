@@ -12,10 +12,13 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     marginLeft: '10%',
-    marginTop: '10rem',
     scrollBehavior: 'smooth',
     height: '70rem',
     width: '80%',
+    [theme.breakpoints.down('xs')]: {
+      marginTop: '-5rem',
+    },
+    paddingTop: '15rem',
   },
   text: {
     color: theme.palette.primary.dark,
@@ -34,6 +37,10 @@ const Main = (props) => {
   const classes = useStyles();
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down('xs'));
+
+  let test;
+
+  matches ? (test = 'h6') : (test = 'h5');
 
   return (
     <Box component="div" className={classes.root}>
@@ -58,7 +65,7 @@ const Main = (props) => {
       </Grow>
       <Grow in timeout={1000}>
         <Typography
-          variant="h5"
+          variant={test}
           gutterBottom
           color="primary"
           className={classes.margin}
