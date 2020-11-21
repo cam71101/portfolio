@@ -51,7 +51,7 @@ const Main = (props) => {
       </Grow>
       <Grow in timeout={1000}>
         <Typography variant={matches ? 'h2' : 'h1'} className={classes.text}>
-          I'm David Fisher.
+          I'm David Fisher,
         </Typography>
       </Grow>
       <Grow in timeout={1000}>
@@ -60,7 +60,7 @@ const Main = (props) => {
           gutterBottom
           color="primary"
         >
-          A front end software engineer living in London.
+          a software engineer living in London.
         </Typography>
       </Grow>
       <Grow in timeout={1000}>

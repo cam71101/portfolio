@@ -36,7 +36,9 @@ const About = () => {
         className={classes.text}
         color="primary"
       >
-        I'm a Front-end Developer and Artist.
+        I'm a highly motivated problem-solving technical artist seeking a role
+        as a Junior Front End Developer. Eager to learn and grow, I’m excited by
+        challenges and creating.
       </Typography>
       <Typography
         variant="body1"
@@ -44,10 +46,12 @@ const About = () => {
         className={classes.text}
         color="primary"
       >
-        I have a passion for problem-solving and draw immense satisfaction from
-        creating. I'm transitioning from a technically demanding job in VFX into
-        web development. I enjoy learning, and I like that programming requires
-        a growth mindset to keep up with the latest tech and trends.
+        I'm transitioning from a compositor role in the film industry. Ben Kent,
+        a Lead Research Engineer at the Foundry, has said: "From what I've seen
+        a lot of comp (compositor) artists do have a developer's mindset, just
+        with better dress sense", so I believe my learnt skills are
+        transferrable. I'm good at finding solutions to technical issues, and I
+        enjoy the process.
       </Typography>
 
       <Typography
@@ -56,8 +60,8 @@ const About = () => {
         className={classes.text}
         color="primary"
       >
-        I’m currently learning more about functional programming. My next
-        project will be a Podcast App.
+        I’m currently learning more about React testing with Jest and Enzyme and
+        I also intend to build a podcast app.
       </Typography>
     </div>
   );
